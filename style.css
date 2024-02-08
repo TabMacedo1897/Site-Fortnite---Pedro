@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=IBM+Plex+Sans:wght@200;700&family=Noto+Sans:wght@100;600&family=Playfair+Display&display=swap');
+body{
+    margin: 0;
+    font-family: 'Honk', system-ui;
+    font-size: 28px;
+    background-color: #000;
+}
+header{
+    background: url("./banner.jpg");
+    background-size: cover;
+    height: calc(100vh - 50px);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    margin: 15px;
+    list-style: none;
+    cursor: pointer;
+}
+button{
+    width: 200px;
+    height: 10%;
+    background: black;
+    text-align: center;
+    font-family: 'Honk', system-ui;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #06066b;
+}
